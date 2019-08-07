@@ -1,0 +1,19 @@
+body{
+    width: 920px;
+    margin: 0 auto;
+    background-image: url(https://qarshiuzhealth.uz/wp-content/uploads/2019/07/1409-856.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#print{
+    width: 150px;
+    height: 30px;
+    background: red;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}

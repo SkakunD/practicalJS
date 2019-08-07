@@ -1,0 +1,13 @@
+body{
+    width: 920px;
+    background: none;
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+img{
+    display: none;
+}
+button {
+    display: none; /*скрытие кнопки конечно можно и реальзовать через скрипт если нопок много и мы хотим убрать конкретную*/
+}
