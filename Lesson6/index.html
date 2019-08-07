@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="color" id="color" /><br />
+    <button id="color_btn">Change color</button>
+    <hr />
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat vero
+      eligendi repellendus quis corrupti quisquam quibusdam nobis laboriosam,
+      dolores tempora reiciendis recusandae. Porro ut iusto molestiae distinctio
+      itaque consequatur blanditiis!
+    </p>
+    <input type="color" id="color_back" />
+    <label for="color_back">Цвет фона</label><br />
+    <input type="color" id="color_text" />
+    <label for="color_text">Цвет текста</label><br />
+    <button id="color_main_btn">Change all color</button>
+    <button id="reset_main_btn">Reset all color</button>
+    <hr/>
+    <h4>Размер шрифта</h4>
+    <input type="range" id="range_input" min="14" max="48" value="16" oninput="rangeText()">
+    <span></span>
+    <br>
+    <!-- <button id="range_text">Изменить шрифт</button> -->
+    <hr>
+    <div class="block_color"></div>
+    <label for="range_input_red">Red</label>
+    <input type="range" id="range_input_red" min="0" max="255" oninput="rangeColorBlock()">
+    <span class="red_color"></span><br>
+    <label for="range_input_green">Green</label>
+    <input type="range" id="range_input_green" min="0" max="255" oninput="rangeColorBlock()">
+    <span class="green_color"></span><br>
+    <label for="range_input_blue">Blue</label>
+    <input type="range" id="range_input_blue" min="0" max="255" oninput="rangeColorBlock()">
+    <span class="blue_color"></span><br>
+    <script src="script.js"></script>
+  </body>
+</html>

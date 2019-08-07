@@ -1,0 +1,9 @@
+*{
+    margin: 10px;
+}
+
+.block_color{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+}
