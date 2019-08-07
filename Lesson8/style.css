@@ -1,0 +1,88 @@
+.main
+{
+    flex: 1 0 auto;
+}
+.footer
+{
+    flex:0 0 auto;
+}
+
+body{
+    width: 920px;
+    margin: 0 auto;
+}
+
+
+.block-ondblclick{
+    width: 250px;
+    height: 200px;
+    border: 2px solid mediumslateblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.folder-open{
+    width: 128px;
+    height: 128px;
+    background-image: url('assets/close.png');
+}
+
+span{
+    color: red;
+    font-size: 20px;
+}
+
+.all-block-change{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block-change-color-enter{
+    width: 250px;
+    height: 200px;
+    border: 2px solid mediumslateblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-change-color-enter p{
+    text-align: center;
+}
+
+.block-change-color-leave{
+    width: 250px;
+    height: 200px;
+    border: 2px solid mediumslateblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.block-change-color-leave p{
+    text-align: center;
+}
+
+.block-change-color-move{
+    width: 250px;
+    height: 200px;
+    border: 2px solid mediumslateblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-change-color-move p{
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+}
