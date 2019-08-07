@@ -1,0 +1,44 @@
+.block{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blueviolet;
+    background: mediumslateblue;
+    margin: 50px;
+    /* visibility:  */
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.close-window{
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+    margin-left: 50px;
+    position: relative;
+
+}
+
+.close-turn{
+    width: 200px;
+    height: 20px;
+}
+
+.close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url(assets/close.png);
+    background-size: contain;
+    margin-left: 180px;
+}
+
+.turn{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url(assets/turn.png);
+    background-size: contain;
+    margin-left: 160px;
+}
