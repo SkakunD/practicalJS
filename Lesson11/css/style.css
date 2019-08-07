@@ -1,0 +1,19 @@
+img{
+    width:15px;
+    height: 15px;
+}
+
+.modal-close {
+    border-radius: 6px;
+    position: absolute;
+}
+
+.mark-close {
+    top: 3px;
+    right: 3px;
+}
+
+.btn-close {
+    top: 3px;
+    right: 44px;
+}
