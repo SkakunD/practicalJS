@@ -1,0 +1,23 @@
+input[type=text] {
+    margin: 30px 0;
+    height: 20px;
+    border-color: blueviolet;
+}
+
+label {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    margin: 0 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 28px;
+    color: midnightblue;
+    border: 2px solid mediumblue;
+    border-radius: 10px;
+    background-color: bisque;
+
+
+}
